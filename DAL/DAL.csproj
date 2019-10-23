@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ilogic.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WebDriver">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\netstandard2.0\WebDriver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
