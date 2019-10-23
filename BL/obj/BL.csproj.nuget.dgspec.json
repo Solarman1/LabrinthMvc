@@ -31,11 +31,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "C:\\Users\\SUN\\source\\repos\\Labrinth\\Labrinth\\Labrinth.csproj": {
-                "projectPath": "C:\\Users\\SUN\\source\\repos\\Labrinth\\Labrinth\\Labrinth.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -68,17 +64,6 @@
           "assetTargetFallback": true,
           "warn": true
         }
-      }
-    },
-    "C:\\Users\\SUN\\source\\repos\\Labrinth\\Labrinth\\Labrinth.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\SUN\\source\\repos\\Labrinth\\Labrinth\\Labrinth.csproj",
-        "projectName": "Labrinth",
-        "projectPath": "C:\\Users\\SUN\\source\\repos\\Labrinth\\Labrinth\\Labrinth.csproj"
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }
