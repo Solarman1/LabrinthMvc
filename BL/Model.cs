@@ -1,25 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using Labrinth;
 
 
 namespace BL
 {
-    class Finder 
+    class Model : INotifyPropertyChanged
     {
-        public void Find_pos(IWebDriver path, IWebElement serch, string FindElement)
+        static void Find_pos(IWebDriver path, IWebElement serch, string FindElement)
         {
-            Labrinth.MainWindow T;
             
-
             path = new ChromeDriver();
             path.Navigate().GoToUrl("https://hh.ru/");
 
             serch = path.FindElement(By.ClassName("bloko-input-wrapper"));
             serch.SendKeys(FindElement + OpenQA.Selenium.Keys.Enter);
+        }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void OnPropertyChanged([CallerMemberName]string prop = "")
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
     }
 }

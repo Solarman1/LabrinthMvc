@@ -26,11 +26,6 @@ namespace Labrinth
             InitializeComponent();
         }
 
-        public string Button_Click(object sender, RoutedEventArgs e)
-        {
-            string text = textBoxFind.Text;
-            return text;
-        }
         
     }
 

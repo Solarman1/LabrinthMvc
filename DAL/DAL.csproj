@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BL\BL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="WebDriver">
       <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\netstandard2.0\WebDriver.dll</HintPath>
     </Reference>

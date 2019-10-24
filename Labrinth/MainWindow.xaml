@@ -5,9 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Labrinth"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="600">
+        Title="MainWindow" Height="400" Width="700">
     <Grid x:Name="Button1">
-        <TextBox x:Name="textBoxFind" Width="325" Height="50" VerticalAlignment="Top" Margin="100" />
-        <Button x:Name="StartFindButton" Width="100" Height="50" VerticalAlignment="Bottom" Margin="120" Content="Поиск" Click="Button_Click"/>
+        <StackPanel Orientation="Vertical">
+            <TextBox x:Name="textBoxFind" Width="235" Height="50" VerticalAlignment="Top"  HorizontalAlignment="Right" Margin="40"/>
+            <Button Width="60" Height="30" HorizontalAlignment="Right" Margin="30" Content="Загрузка"/>
+        </StackPanel>
+     
+        <DataGrid Grid.Row="1" Margin="5" ItemsSource="{Binding }" Width="400" HorizontalAlignment="Left">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding }"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding }"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding }"/>
+                <DataGridTextColumn Header="Профессия" Binding="{Binding }"/>
+                <DataGridTextColumn Header="Номер телефона" Binding="{Binding }"/>
+                
+
+            </DataGrid.Columns>
+            
+            <Button Width="400" Height="100"/>
+        </DataGrid>
     </Grid>
 </Window>
