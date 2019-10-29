@@ -1,6 +1,0 @@
-C:\Users\SUN\source\repos\Labrinth\BL\bin\Debug\netstandard2.0\BL.deps.json
-C:\Users\SUN\source\repos\Labrinth\BL\bin\Debug\netstandard2.0\BL.dll
-C:\Users\SUN\source\repos\Labrinth\BL\obj\Debug\netstandard2.0\BL.csprojAssemblyReference.cache
-C:\Users\SUN\source\repos\Labrinth\BL\obj\Debug\netstandard2.0\BL.csproj.CoreCompileInputs.cache
-C:\Users\SUN\source\repos\Labrinth\BL\obj\Debug\netstandard2.0\BL.AssemblyInfoInputs.cache
-C:\Users\SUN\source\repos\Labrinth\BL\obj\Debug\netstandard2.0\BL.AssemblyInfo.cs

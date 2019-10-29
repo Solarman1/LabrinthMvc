@@ -4,11 +4,9 @@ C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\Labrinth.pdb
 C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\WebDriver.dll
 C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\WebDriver.xml
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.csprojAssemblyReference.cache
-C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\MainWindow.g.cs
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\App.g.cs
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth_MarkupCompile.cache
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth_MarkupCompile.lref
-C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\MainWindow.baml
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.g.resources
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.Properties.Resources.resources
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.csproj.GenerateResource.cache
@@ -16,3 +14,9 @@ C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.csproj.CoreCompil
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.csproj.CopyComplete
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.exe
 C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Labrinth.pdb
+C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Views\MainWindow.g.cs
+C:\Users\SUN\source\repos\Labrinth\Labrinth\obj\Debug\Views\MainWindow.baml
+C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\CasttVM.dll
+C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\CasttVM.pdb
+C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\BL.dll
+C:\Users\SUN\source\repos\Labrinth\Labrinth\bin\Debug\BL.pdb
